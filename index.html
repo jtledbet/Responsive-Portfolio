@@ -7,6 +7,31 @@
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width">
+
+  <style>
+      #logo {
+      animation-name: fadeout;
+      animation-duration: 4s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+    }
+
+    h1 {
+      animation-name: fadein;
+      animation-duration: 4s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes fadeout {
+      from {background-color: #4aaaa5}
+      to {background-color: rgb(5, 5, 5);}
+    }
+
+    @keyframes fadein {
+      from {color: #4aaaa5}
+      to {color: rgb(5, 5, 5);}
+    }</style>
 </head>
 
 <body>

@@ -5,6 +5,47 @@
   <meta charset="UTF-8">
   <title>Portfolio | Your Name</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  
+  <style>
+    #logo, .work, .auth-image, .work h3 {
+      animation-name: fadeout;
+      animation-duration: 4s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+    }
+
+    h1, h2, h3 {
+      animation-name: fadein;
+      animation-duration: 4s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+    }
+
+    h3 {
+      animation-name: fadein2;
+      animation-duration: 4s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes fadeout {
+      from {background-color: #4aaaa5}
+      to {background-color: rgb(5, 5, 5);}
+    }
+
+    @keyframes fadein {
+      from {color: #4aaaa5}
+      to {color: rgb(5, 5, 5);}
+    }
+
+    @keyframes fadein2 {
+      from {color:white}
+      to {color: rgb(5, 5, 5);}
+    }
+
+  </style>
+
 </head>
 
 <body>

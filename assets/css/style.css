@@ -15,7 +15,7 @@ body {
 .container {
   width: 100%;
   max-width: 960px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   clear: both;
 }
 
@@ -153,6 +153,10 @@ h3, h2 {
   #masthead {
     width: 980px;
     clear: both;
+  }
+
+  #logo {
+      text-align: center;
   }
 
   nav {
